@@ -97,7 +97,7 @@ TEST(CircleTest, SetArea3) {
 }
 TEST(EarthRopeTest, CalculateGap) {
   double gap = taskEarthAndRope();
-  EXPECT_FLOAT_EQ(gap, 0.159);
+  EXPECT_FLOAT_EQ(gap, 0.15915494);
 }
 TEST(PoolTest, CalculatePoolCost) {
   double cost = taskPool();
