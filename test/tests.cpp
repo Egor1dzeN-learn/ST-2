@@ -95,11 +95,11 @@ TEST(CircleTest, SetArea3) {
   c.setArea(M_PI * 400);
   EXPECT_FLOAT_EQ(c.getArea(), M_PI * 400);
 }
-TEST(EarthRopeTest, CalculateGap) {
+TEST(EarthRopeTest, test) {
   double gap = taskEarthAndRope();
   EXPECT_FLOAT_EQ(gap, 0.15915494);
 }
-TEST(PoolTest, CalculatePoolCost) {
+TEST(PoolTest, test) {
   double cost = taskPool();
   EXPECT_FLOAT_EQ(cost, M_PI * (16 - 9) * 1000
     + 2 * M_PI * 4 * 2000);
