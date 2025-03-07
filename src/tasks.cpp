@@ -1,3 +1,4 @@
+// Copyright 2025 UNN-CS Team
 #include <tasks.h>
 #include <circle.h>
 double taskEarthAndRope() {
@@ -5,7 +6,7 @@ double taskEarthAndRope() {
   Circle earth(earthRadius);
   earth.setFerence(earth.getFerence() + 1);
   return earth.getRadius() - earthRadius;
-};
+}
 double taskPool() {
   double poolRadius = 3;
   double pathWidth = 1;
@@ -13,4 +14,4 @@ double taskPool() {
   Circle poolWithPath(poolRadius + pathWidth);
   return (poolWithPath.getArea() - pool.getArea()) * 1000
     + poolWithPath.getFerence() * 2000;
-};
+}

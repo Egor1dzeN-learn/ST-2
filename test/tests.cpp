@@ -2,9 +2,9 @@
 
 #include <gtest/gtest.h>
 #include <cstdint>
+#include <cmath>
 #include "circle.h"
 #include "tasks.h"
-#include <cmath>
 
 TEST(CircleTest, Initialization1) {
   Circle c(5);
